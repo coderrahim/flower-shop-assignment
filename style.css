@@ -5,9 +5,21 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+section{
+    padding: 50px 0px;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
 .container{
     width: 90%;
     margin: auto;
+}
+.text-primary{
+    color: #E55473;
 }
 .btn-primary{
     
@@ -26,7 +38,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
  
 /* Header Section */
@@ -36,7 +49,7 @@ header{
 
 .header-container{
     display: flex;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 .left-side{
     width: 50%;
@@ -48,4 +61,27 @@ header{
 }
 .banner-img{
     max-width: 500px;
+}
+
+/* Feature Section */
+.feature-section{
+
+}
+.feature-section > p{
+    text-align: center;
+}
+
+/* Offer Section */
+.offer-container{
+    margin-top: 10px;
+    display: flex;
+    background-color: #f1c3cd ;
+    text-align: center;
+    padding: 50px 0;
+}
+.offer-container p{
+    width: 600px;
+}
+.offer-img{
+    width: 320px;
 }
